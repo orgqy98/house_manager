@@ -29,7 +29,7 @@ public class HouseController {
      */
     @RequestMapping("houseList")
     public Object list(){
-        System.out.println(222);
+        System.out.println(222111);
         return houseService.getList();
     }
 
